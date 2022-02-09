@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+{% for post in posts %}
+{{post.user}}
+<br>
+{{post.title}}
+<br>
+{{post.category}}
+<br>
+{{post.date}}
+<br>
+{{post.user.first_name}}
+<br>
+{% endfor %}
+
+
+{% endblock %}

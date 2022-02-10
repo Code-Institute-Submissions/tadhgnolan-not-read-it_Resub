@@ -99,4 +99,4 @@
 - [Django Blog](https://github.com/Code-Institute-Solutions/Django3blog/tree/master/12_final_deployment)
 - Used  and modified code from this Github repository.
 - [Stackoverflow](https://stackoverflow.com/questions/6045021/django-forms-getting-a-select-box-from-a-different-model)
-- used and modified code from this Github repository.
+- used and modified code from this webpage.

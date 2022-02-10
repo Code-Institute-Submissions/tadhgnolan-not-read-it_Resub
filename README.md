@@ -59,8 +59,6 @@
 
 ### Validator Testing 
 
-Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in my code. 
-
 ### Unfixed Bugs
 
 
@@ -100,8 +98,5 @@ Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in
 
 - [Django Blog](https://github.com/Code-Institute-Solutions/Django3blog/tree/master/12_final_deployment)
 - Used  and modified code from this Github repository.
-
-### Special Thanks
-
-- Cormac Nolan - Feedback and advice.
-- Tim Nelson - Mentor.
+- [Stackoverflow](https://stackoverflow.com/questions/6045021/django-forms-getting-a-select-box-from-a-different-model)
+- used and modified code from this Github repository.

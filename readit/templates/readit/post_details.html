@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+{% if request.user|lower == post.user|lower %}
+<a href="{% url 'update_post' post.id %}">Update</a>
+<br>
+<a href="{% url 'delete_post' post.id %}">Delete</a>
+{% endif %}
+<br>
+<br>
+{{post.user}}
+<br>
+{{post.title}}
+<br>
+{{post.category}}
+<br>
+{{post.date}}
+<br>
+{{post.user.first_name}}
+<br>
+
+
+
+{% endblock %}

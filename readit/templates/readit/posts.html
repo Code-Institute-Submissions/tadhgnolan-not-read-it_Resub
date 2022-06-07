@@ -13,7 +13,12 @@
 <br>
 {{post.user.first_name}}
 <br>
+<a href="{% url 'view_post' post.id %}">View Post</a>
+<hr>
 {% endfor %}
 
+{% if request.user.is_authenticated %}
+<a href="{% url 'add_post' %}">Add Post</a>
+{% endif %}
 
 {% endblock %}

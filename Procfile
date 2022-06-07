@@ -1,1 +1,1 @@
-web: gunicorn not-read-it.wsgi
+web: gunicorn notreadit.wsgi

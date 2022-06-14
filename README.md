@@ -1,8 +1,8 @@
 # Not Read It
 ## by Tadhg Nolan
 
-[Live Site]()
-
+[Live Site](https://not-read-it.herokuapp.com/)
+[Wirefranme](static/not-read-it_wireframe.pdf)
 # Table of Contents
 1. [Intro](#intro)
 2. [Technologies](#technologies)
@@ -16,7 +16,7 @@
 
 ### Design
 
-
+[Entity Relationship Diagram (ERD)](static/pp4_erd.drawio.png)
 
 ### User Stories
 

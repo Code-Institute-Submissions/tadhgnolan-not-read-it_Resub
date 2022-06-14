@@ -44,7 +44,7 @@
 - [GitPod](https://www.gitpod.io/about/)
 - [Heroku](https://heroku.com)
 - [Django](https://www.djangoproject.com/)
-
+- [Django-AllAuth](https://django-allauth.readthedocs.io/en/latest/)
 ## Features 
 
 ### Existing Features

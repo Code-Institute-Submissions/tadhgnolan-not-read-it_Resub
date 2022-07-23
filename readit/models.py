@@ -17,6 +17,7 @@ class Post(models.Model):
     title = models.CharField(max_length=200)
     date = models.DateTimeField(auto_now_add=True)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    content = models.TextField()
 
     def __str__(self):
         return self.title

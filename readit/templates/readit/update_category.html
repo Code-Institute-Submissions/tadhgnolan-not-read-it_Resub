@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h2>Update Category</h2>
+<form action="{% url 'update_category' category.id %}" method="post">
+    {% csrf_token %}
+
+    {{form.as_p}}
+    <button type="submit">Update Category</button>
+</form>
+
+
+{% endblock %}

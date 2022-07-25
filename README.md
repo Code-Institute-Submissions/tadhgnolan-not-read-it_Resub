@@ -63,31 +63,50 @@
 ### Unfixed Bugs
 
 
-## Deployment 
+### Using Heroku
 
-- The site was deployed via Heroku. The steps to deploy are as follows: 
-  
-  -  Enter following command in terminal: 'Pip3 freeze > requirements.txt'.
-  - From Heroku Dashboard: Create new app. Select region. Go to settings tab => add buildpacks for Python and NodeJS. Make sure Python is on top and NodeJS beneath.
-  - Go to deploy section and select Github.
-  - Search for repository name => click connect => click automatic or manual deploy.
-  
-- To clone to a local machine follow these steps:
-  
-  - On GitHub, navigate to the main page of the repository.
-  - Above the list of files, click download Code.
-  - To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon.
-  - Open Git Bash.
-  - Change the current working directory to the location where you want the cloned directory.
-  - Type git clone, and then paste the URL you copied earlier.
-    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
-  - Press Enter to create your local clone. 
-  	`$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
-    ``> Cloning into `Spoon-Knife`...``
-    `> remote: Counting objects: 10, done.`
-    `> remote: Compressing objects: 100% (8/8), done.`
-    `> remove: Total 10 (delta 1), reused 10 (delta 1)`
-    `> Unpacking objects: 100% (10/10), done.`
+- Create an account and login to [Heroku](https://id.heroku.com/login)
+- Create a new app, with an appropriate app name and choose a region.
+- In Resources add Heroku Postgres.
+- Within your newly created app go to settings and click Config Vars. Use the DATABASE_URL Value and add it to your env.py file also you need to connect it via settings.py.
+- Create a SECRET_KEY Key and the Value as the desired key.
+- Then go to the Deploy tab next to Deployment Method, click GitHub to connect your account and repository.
+- At the bottom of the page hit deploy branch making sure it is set to main.
+- Also "Enable Automatic Deploys" can be clicked to keep the app up to date with your Github repository.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
    
    
 

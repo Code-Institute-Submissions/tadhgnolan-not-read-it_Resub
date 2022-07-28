@@ -102,31 +102,57 @@ Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in
 ### Unfixed Bugs
 
 
-## Deployment 
+The live deployed application can be found at [not read it](https://not-read-it.herokuapp.com/).
 
-- The site was deployed via Heroku. The steps to deploy are as follows: 
-  
-  -  Enter following command in terminal: 'Pip3 freeze > requirements.txt'.
-  - From Heroku Dashboard: Create new app. Select region. Go to settings tab => add buildpacks for Python and NodeJS. Make sure Python is on top and NodeJS beneath.
-  - Go to deploy section and select Github.
-  - Search for repository name => click connect => click automatic or manual deploy.
-  
-- To clone to a local machine follow these steps:
-  
-  - On GitHub, navigate to the main page of the repository.
-  - Above the list of files, click download Code.
-  - To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon.
-  - Open Git Bash.
-  - Change the current working directory to the location where you want the cloned directory.
-  - Type git clone, and then paste the URL you copied earlier.
-    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
-  - Press Enter to create your local clone. 
-  	`$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
-    ``> Cloning into `Spoon-Knife`...``
-    `> remote: Counting objects: 10, done.`
-    `> remote: Compressing objects: 100% (8/8), done.`
-    `> remove: Total 10 (delta 1), reused 10 (delta 1)`
-    `> Unpacking objects: 100% (10/10), done.`
+### Heroku Deployment
+
+This project uses [Heroku](https://www.heroku.com), a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+
+Deployment steps are as follows, after account setup:
+
+- Select *New* in the top-right corner of your Heroku Dashboard, and select *Create new app* from the dropdown menu.
+- Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select *Create App*.
+- From the new app *Settings*, click *Reveal Config Vars*, and set the following key/value pairs:
+  - `DATABASE_URL` (this comes from the **Resources** tab, you can get your own Postgres Database using the Free Hobby Tier)
+  - `SECRET_KEY` (this can be any random secret key)
+
+Heroku needs two additional files in order to deploy properly.
+- requirements.txt
+- Procfile
+
+You can install this project's requirements (where applicable) using: `pip3 install -r requirements.txt`. If you have your own packages that have been installed, then the requirements file needs updated using: `pip3 freeze --local > requirements.txt`
+
+The Procfile can be created with the following command: `echo web: gunicorn notreadit.wsgi > Procfile`
+
+For Heroku deployment, follow these steps to connect your GitHub repository to the newly created app:
+
+Either:
+- Select "Automatic Deployment" from the Heroku app.
+
+Or:
+- In the Terminal/CLI, connect to Heroku using this command: `heroku login -i`
+- Set the remote for Heroku: `heroku git:remote -a <app_name>` (replace app_name with your app, without the angle-brackets)
+- After performing the standard Git `add`, `commit`, and `push` to GitHub, you can now type: `git push heroku main`
+
+The frontend terminal should now be connected and deployed to Heroku.
+
+### Local Deployment
+
+*Gitpod* IDE was used to write the code for this project.
+
+To make a local copy of this repository, you can clone the project by typing the follow into your IDE terminal:
+- `git clone https://github.com/tadhgnolan/not-read-it.git`
+
+You can install this project's requirements (where applicable) using: `pip3 install -r requirements.txt`.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tadhgnolan/not-read-it)
+
+Additionally, you'll need to create your own `env.py` file with the following keys:
+
+- `SECRET_KEY` (can be any secret value)
+- `DATABASE_URL` (this comes from the "Resources" tab on your Heroku app)
    
    
 

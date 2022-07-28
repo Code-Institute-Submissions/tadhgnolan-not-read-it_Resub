@@ -6,6 +6,10 @@ body {
     height: calc(100vh - 164px);
 }
 
+p {
+    word-wrap: normal;
+}
+
 /* ---------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

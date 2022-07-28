@@ -6,14 +6,16 @@
         <div class="col-12">
             <div class="card shadow my-3 mx-2 p-3">
                 {% for category in categories %}
-                {{category.name}}
+
+                <h5 class="text-center">Category: {{category.name}}</h5>
 
                 {% if request.user.is_superuser %}
                 <div class="row">
                     <div class="col-12 text-center mx-auto">
                         <a href="{% url 'update_category' category.id %}" class="btn btn-success">Update
                             {{category}}</a>
-                        <a href="{% url 'delete_category' category.id %}" class="btn btn-danger">Delete {{category}}</a>
+                        <a href="{% url 'delete_category' category.id %}" class="btn btn-danger">Delete
+                            {{category}}</a>
                     </div>
                 </div>
                 {% endif %}

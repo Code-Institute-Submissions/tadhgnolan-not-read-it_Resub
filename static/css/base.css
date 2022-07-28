@@ -10,6 +10,11 @@ p {
     word-wrap: normal;
 }
 
+#creator {
+    background-color: grey;
+    color: black;
+}
+
 /* ---------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

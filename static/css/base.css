@@ -1,0 +1,16 @@
+html {
+    height: 100%
+}
+
+body {
+    height: calc(100vh - 164px);
+}
+
+/* ---------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}

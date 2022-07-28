@@ -13,19 +13,22 @@
         {% for post in posts %}
         <div class="col-12 col-md-6 col-lg-3 my-5">
             <div class="card shadow my-3 mx-2 p-3">
-                {{post.user}}
+                <h6>Username:</h6>{{post.user}}
+                <hr>
                 <br>
 
-                {{post.title}}
+                <h6>Title:</h6>{{post.title
+                <hr>
                 <br>
 
-                {{post.category}}
+                <h6>Category:</h6>{{post.category}}
+                <hr>
                 <br>
 
-                {{post.date}}
+                <h6>Date Posted:</h6>{{post.date}}
                 <br>
 
-                {{post.user.first_name}}
+                <h6>Name:</h6>{{post.user.first_name}}
                 <br>
 
                 <a href="{% url 'view_post' post.id %}" class="btn btn-success">View Post</a>

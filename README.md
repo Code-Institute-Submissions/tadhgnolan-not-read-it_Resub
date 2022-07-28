@@ -1,9 +1,8 @@
 # Not Read It
 ## by Tadhg Nolan
 
-[Live Site](https://not-read-it.herokuapp.com/)
+[Live Site]()
 
-[Wireframe](static/not-read-it_wireframe.pdf)
 # Table of Contents
 1. [Intro](#intro)
 2. [Technologies](#technologies)
@@ -17,7 +16,7 @@
 
 ### Design
 
-[Entity Relationship Diagram (ERD)](static/pp4_erd.drawio.png)
+
 
 ### User Stories
 
@@ -29,7 +28,7 @@
 - Comment on a post: As a Site User I can leave comments on a post so that I can be involved in the conversation.
 - Like / Unlike: As a Site User I can like or unlike a post so that I can interact with the content.
 - Manage posts: As a Site User / Admin I can create, read, update and delete posts so that I can manage my blog content.
-- Select Category: As a Site User / Admin I can select a topic category when creating a post.
+- Select Catagory: As a Site User / Admin I can select a topic catagory when creating a post.
 - Create drafts: As a Site Admin I can create draft posts so that I can finish writing the content later.
 - Approve comments: As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments.
 
@@ -45,68 +44,89 @@
 - [GitPod](https://www.gitpod.io/about/)
 - [Heroku](https://heroku.com)
 - [Django](https://www.djangoproject.com/)
-- [Django-AllAuth](https://django-allauth.readthedocs.io/en/latest/)
+
 ## Features 
 
 ### Existing Features
 
+Registration Page - allows new users to register an account with username and password.
+
+Login page - registered user can login.
+
+Home page - usersers can view list of posts. 
+
+Add post - registered users can add new posts, enter a title and select a category from a drop down menu.
+
+Update post - registered users can update their existing posts.
+
+Delete post - registered users can delete their existing posts
+
+Admin functionality - admins can update and delete categories
+
 ### Features Left to Implement
+
+Like / Unlike
+
+View Likes
+
+Comment on a Post
+
+Approve Comments
 
 ## Testing
 
 ### Manual testing
 
-- Manually testing each each path.  										
+- Manually testing each each path. 
+
+- Repeated real world testing performed with Google Pixel 3aXL (2160 × 1080px), Nokia 3 (720 x 1280), Asus Nexus 7 (1920 x 1200px) & Desktop PC (1920 x 1080px + 2560 × 1440) representing a mixture of age plus hardware capability & were readily available.
+
+### In Chrome Dev Tools, tested repeatedly with all available presets
+
+This functionality testing involved:
+
+- Verifying all navbar & other links functioned as expected.
+
+- Using Chrome Dev Tools Elements tab to test out small styling changes before adding.
+
+- Checking that fonts scaled correctly for each display size.
+
+- Checking for overflow.
+
+- Tested html & CSS at https://validator.w3.org.
 
 ### Validator Testing 
+
+Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in my code. 
 
 ### Unfixed Bugs
 
 
-### Using Heroku
+## Deployment 
 
-- Create an account and login to [Heroku](https://id.heroku.com/login)
-- Create a new app, with an appropriate app name and choose a region.
-- In Resources add Heroku Postgres.
-- Within your newly created app go to settings and click Config Vars. Use the DATABASE_URL Value and add it to your env.py file also you need to connect it via settings.py.
-- Create a SECRET_KEY Key and the Value as the desired key.
-- Then go to the Deploy tab next to Deployment Method, click GitHub to connect your account and repository.
-- At the bottom of the page hit deploy branch making sure it is set to main.
-- Also "Enable Automatic Deploys" can be clicked to keep the app up to date with your Github repository.
-
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
-
-### Making a Local Clone
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+- The site was deployed via Heroku. The steps to deploy are as follows: 
+  
+  -  Enter following command in terminal: 'Pip3 freeze > requirements.txt'.
+  - From Heroku Dashboard: Create new app. Select region. Go to settings tab => add buildpacks for Python and NodeJS. Make sure Python is on top and NodeJS beneath.
+  - Go to deploy section and select Github.
+  - Search for repository name => click connect => click automatic or manual deploy.
+  
+- To clone to a local machine follow these steps:
+  
+  - On GitHub, navigate to the main page of the repository.
+  - Above the list of files, click download Code.
+  - To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon.
+  - Open Git Bash.
+  - Change the current working directory to the location where you want the cloned directory.
+  - Type git clone, and then paste the URL you copied earlier.
+    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+  - Press Enter to create your local clone. 
+  	`$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+    ``> Cloning into `Spoon-Knife`...``
+    `> remote: Counting objects: 10, done.`
+    `> remote: Compressing objects: 100% (8/8), done.`
+    `> remove: Total 10 (delta 1), reused 10 (delta 1)`
+    `> Unpacking objects: 100% (10/10), done.`
    
    
 
@@ -118,5 +138,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - [Django Blog](https://github.com/Code-Institute-Solutions/Django3blog/tree/master/12_final_deployment)
 - Used  and modified code from this Github repository.
-- [Stackoverflow](https://stackoverflow.com/questions/6045021/django-forms-getting-a-select-box-from-a-different-model)
-- used and modified code from this webpage.
+
+### Special Thanks
+
+- Cormac Nolan - Feedback and advice.
+- Tim Nelson - Mentor.

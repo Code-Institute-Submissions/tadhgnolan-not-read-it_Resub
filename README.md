@@ -79,7 +79,49 @@ Approve Comments
 
 - Manually testing each each path. 
 
-- Repeated real world testing performed with Google Pixel 3aXL (2160 × 1080px), Nokia 3 (720 x 1280), Asus Nexus 7 (1920 x 1200px) & Desktop PC (1920 x 1080px + 2560 × 1440) representing a mixture of age plus hardware capability & were readily available.
+- Repeated real world testing performed with:
+---
+### **Google Pixel 3aXL (2160 × 1080px)**
+---  
+![Pixel 3aXL Image 1](static/Documentation/Testing/images/Pixel_3a_1.png)
+![Pixel 3aXL Image 2](static/Documentation/Testing/images/Pixel_3a_2.png)
+
+---
+### **Nokia 3 (720 x 1280)**
+---
+![Nokia 3 Image 1](static/Documentation/Testing/images/Nokia_3_1.jpg)
+![Nokia 3 Image 2](static/Documentation/Testing/images/Nokia_3_2.jpg)
+
+---
+### **Lenovo Ideapad Duet Chromebook (1080 x 1200px)**
+---
+**Laptop mode**
+
+![Chromebook Laptop Mode Image 1](static/Documentation/Testing/images/chromebook_1.png)
+![Chromebook Laptop Mode Image 2](static/Documentation/Testing/images/chromebook_2.png)
+
+**Tablet mode**
+
+![Chromebook Tablet Mode Image 1](static/Documentation/Testing/images/chromebook_3.png)
+![Chromebook Tablet Mode Image 2](static/Documentation/Testing/images/chromebook_4.png)
+
+---
+### **Desktop PC (1920 x 1080px + 2560 × 1440) representing a mixture of age plus hardware capability & were readily available.**
+---
+
+**1920 x 1080px**
+
+![1920 x 1080px Image 1](static/Documentation/Testing/images/Desktop_1920_1.png)
+![1920 x 1080px Image 2](static/Documentation/Testing/images/Desktop_1920_2.png)
+
+---
+
+**2560 x 1440px**
+
+![2560 x 1440px Image 1](static/Documentation/Testing/images/Desktop_1440_1.png)
+![2560 x 1440px Image 2](static/Documentation/Testing/images/Desktop_1440_2.png)
+
+---
 
 ### In Chrome Dev Tools, tested repeatedly with all available presets
 

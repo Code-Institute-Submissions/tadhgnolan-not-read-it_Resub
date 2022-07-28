@@ -1,19 +1,34 @@
 {% extends "base.html" %}
 {% block content %}
 
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow my-3 mx-2 p-3">
+                {% for category in categories %}
+                {{category.name}}
 
-{% for category in categories %}
-{{category.name}}
-
-{% if request.user.is_superuser %}
-<a href="{% url 'update_category' category.id %}">Update {{category}}</a>
-<a href="{% url 'delete_category' category.id %}">Delete {{category}}</a>
-{% endif %}
-<hr>
-{% endfor %}
-<hr>
-{% if request.user.is_superuser %}
-<a href="{% url 'add_category' %}">Add Category</a>
-{% endif %}
-
+                {% if request.user.is_superuser %}
+                <div class="row">
+                    <div class="col-12 text-center mx-auto">
+                        <a href="{% url 'update_category' category.id %}" class="btn btn-success">Update
+                            {{category}}</a>
+                        <a href="{% url 'delete_category' category.id %}" class="btn btn-danger">Delete {{category}}</a>
+                    </div>
+                </div>
+                {% endif %}
+                <hr>
+                {% endfor %}
+                <hr>
+                {% if request.user.is_superuser %}
+                <div class="row">
+                    <div class="col-12 text-center mx-auto">
+                        <a href="{% url 'add_category' %}" class="btn btn-success">Add Category</a>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

@@ -23,7 +23,7 @@
 #### UX
 
 An Agile methodology was used in planning the project utilising Github's Project kanban.
-Issues were used to create user stories. When work began on a user story, it was moved to the "In Progress" column. When the task is complete, it is moved to the Done column.
+Issues were used to create user stories. When work began on a user story, it was moved to the "In Progress" column. When the task is complete, it is moved to the "Done" column.
 A collumn named [Future Features](https://github.com/tadhgnolan/not-read-it/projects/1#column-18863244) is used for prospective features for the website and for any features that 
 were not complete by the project deadline.
 
@@ -298,8 +298,7 @@ Additionally, you'll need to create your own `env.py` file with the following ke
  
 ### Content 
 
-- [Django Blog](https://github.com/Code-Institute-Solutions/Django3blog/tree/master/12_final_deployment)
-- Used  and modified code from this Github repository.
+- [Django Blog](https://github.com/Code-Institute-Solutions/Django3blog/tree/master/12_final_deployment) Used  and modified code from this Github repository.
 
 ### Special Thanks
 

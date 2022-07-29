@@ -201,6 +201,10 @@ This functionality testing involved:
 
 - Using Chrome Dev Tools Elements tab to test out small styling changes before adding.
 
+![Dev Tool Styling Image 1](static/documentation/testing/images/dev_tool_styling_1.png)
+
+![Dev Tool Styling Image 2](static/documentation/testing/images/dev_tool_styling_2.png)
+
 - Checking that fonts scaled correctly for each display size.
 
 - Checking for overflow.

@@ -216,11 +216,18 @@ This functionality testing involved:
 ![Overflow Image](static/documentation/testing/images/overflow_image.png)
 
 
-- Tested html & CSS at https://validator.w3.org.
-
 ### Validator Testing 
 
-Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in my code.
+- Tested html at https://validator.w3.org.
+
+Initiallyfound one HTML error, missing lang element in HTML Tag. Resolved Issue. Remaining errors due to Django.
+
+![HTML Validator Image 1](static/documentation/testing/images/val_1.png)
+![HTML Validator Image 2](static/documentation/testing/images/val_2.png)
+
+- Tested CSS at https://jigsaw.w3.org/css-validator/
+
+![CSS Validator Image](static/documentation/testing/images/css_val.png)
 
 ### Lighthouse Score
 ![Lighthouse Score Image](static/documentation/testing/images/Lighthouse_Score.PNG)

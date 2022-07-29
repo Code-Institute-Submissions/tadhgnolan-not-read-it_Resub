@@ -30,6 +30,7 @@ were not complete by the project deadline.
 #### UI
 
 **Wireframe Images**
+
 ---
 ![Wireframe Image 1](static/documentation/wireframes/wireframe_1.png)
 
@@ -38,6 +39,11 @@ were not complete by the project deadline.
 ![Wireframe Image 1](static/documentation/wireframes/wireframe_3.png)
 
 ---
+
+#### **Entity Relationship Diagram**
+
+---
+![ERD Image](static/documentation/wireframes/pp4_erd.drawio.png)
 
 ### User Stories
 
@@ -61,6 +67,8 @@ were not complete by the project deadline.
 - [GitPod](https://www.gitpod.io/about/)
 - [Heroku](https://heroku.com)
 - [Django](https://www.djangoproject.com/)
+- [WhiteNoise](http://whitenoise.evans.io/en/stable/)
+- [PostgreSQL](https://www.postgresql.org/about/)
 
 ## Features 
 

@@ -1,17 +1,18 @@
 # Not Read It
 
-![Device Mockup Image]()
+![Device Mockup Image](static/documentation/mock_ups/Device_Mock_Up.PNG)
 
 ## by Tadhg Nolan
 
-[Live Site]()
+[Live Site](https://not-read-it.herokuapp.com/)
 
 # Table of Contents
 1. [Intro](#intro)
 2. [Technologies](#technologies)
-3. [Testing](#testing)
-4. [Credits](#credits)
-5. [Deployment](deployment)
+3. [Features](#features)
+4. [Testing](#testing)
+5. [Credits](#credits)
+6. [Deployment](deployment)
 
 ## Intro
 

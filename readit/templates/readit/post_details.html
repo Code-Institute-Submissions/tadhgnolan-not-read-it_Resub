@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
+<!-- Template for page providing full details of each post when selected -->
 <div class="container">
 
     <br>
@@ -8,6 +9,7 @@
 
     <div class="row">
         <div class="col-12">
+            <!-- List of post details -->
             <div class="card shadow my-3 mx-2 p-3">
                 <h6>Username:</h6>{{post.user}}
                 <hr>
@@ -29,6 +31,7 @@
         </div>
     </div>
     <br>
+    <!-- Checks if request user is original poster and, if so, allows them to update or delete post -->
     {% if request.user|lower == post.user|lower %}
     <div class="row">
         <div class="col-12 text-center mx-auto">

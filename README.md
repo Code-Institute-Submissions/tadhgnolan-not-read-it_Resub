@@ -79,7 +79,14 @@ Approve Comments
 
 - Manually testing each each path. 
 
-- Repeated real world testing performed with:
+---
+**Manual Test of post paths**
+
+---
+![Manual Test Image](static/Documentation/Testing/images/Manual_test_post.gif)
+
+---
+- ### Repeated real world testing performed with:
 ---
 ### **Google Pixel 3aXL (2160 × 1080px)**
 ---  
@@ -128,6 +135,26 @@ Approve Comments
 This functionality testing involved:
 
 - Verifying all navbar & other links functioned as expected.
+
+---
+**iPhone X**
+
+---
+![iPhone X Image](static/Documentation/Testing/images/iPhone_X.gif)
+
+---
+**Samsung Galaxy S20 Ultra**
+
+---
+![Samsung Galaxy S20 Ultra Image](static/Documentation/Testing/images/Samsung_Galaxy_S20_Ultra.gif)
+
+---
+**iPhone 6/7/8**
+
+---
+![iPhone 6/7/8 Image](static/Documentation/Testing/images/iPhone_6_7_8.gif)
+
+---
 
 - Using Chrome Dev Tools Elements tab to test out small styling changes before adding.
 

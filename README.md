@@ -1,4 +1,7 @@
 # Not Read It
+
+![Device Mockup Image]()
+
 ## by Tadhg Nolan
 
 [Live Site]()
@@ -52,31 +55,31 @@ were not complete by the project deadline.
 
 #### **Registration Page - allows new users to register an account with username and password.**
 
-![Registration Page Image](static/Documentation/Features/Registration_page.png)
+![Registration Page Image](static/documentation/features/Registration_page.png)
 
 #### **Login Page - registered user can login.**
 
-![Login Page Image](static/Documentation/Features/Login_page.png)
+![Login Page Image](static/documentation/features/Login_page.png)
 
 #### **Home Page - usersers can view list of posts.**
 
-![Home Page Image](static/Documentation/Features/Home_page.png)
+![Home Page Image](static/documentation/features/Home_page.png)
 
 #### **Add post - registered users can add new posts, enter a title and select a category from a drop down menu.**
 
-![Add Post Page](static/Documentation/Features/Add_Post_page.png)
+![Add Post Page](static/documentation/features/Add_Post_page.png)
 
 #### **Update post - registered users can update their existing posts.**
 
-![Update Post Page](static/Documentation/Features/Update_Post_page.png)
+![Update Post Page](static/documentation/features/Update_Post_page.png)
 
 #### **Delete post - registered users can delete their existing posts.**
 
-![Delete Post Functionality Image](static/Documentation/Features/Delete_Post_image.png)
+![Delete Post Functionality Image](static/documentation/features/Delete_Post_image.png)
 
 #### **Admin functionality - admins can update and delete categories.**
 
-![Admin Functionality Image](static/Documentation/Features/Admin_Functionality_image.png)
+![Admin Functionality Image](static/documentation/features/Admin_Functionality_image.png)
 
 ### Features Left to Implement
 
@@ -102,34 +105,34 @@ Category List: As a Site User I can view a list of categories so that I can view
 **Manual Test of post paths**
 
 ---
-![Manual Test Image](static/Documentation/Testing/images/Manual_test_post.gif)
+![Manual Test Image](static/documentation/testing/images/Manual_test_post.gif)
 
 ---
 - ### Repeated real world testing performed with:
 
 ### **Google Pixel 3aXL (2160 × 1080px)**
 ---  
-![Pixel 3aXL Image 1](static/Documentation/Testing/images/Pixel_3a_1.png)
-![Pixel 3aXL Image 2](static/Documentation/Testing/images/Pixel_3a_2.png)
+![Pixel 3aXL Image 1](static/documentation/testing/images/Pixel_3a_1.png)
+![Pixel 3aXL Image 2](static/documentation/testing/images/Pixel_3a_2.png)
 
 ---
 ### **Nokia 3 (720 x 1280)**
 ---
-![Nokia 3 Image 1](static/Documentation/Testing/images/Nokia_3_1.jpg)
-![Nokia 3 Image 2](static/Documentation/Testing/images/Nokia_3_2.jpg)
+![Nokia 3 Image 1](static/documentation/testing/images/Nokia_3_1.jpg)
+![Nokia 3 Image 2](static/documentation/testing/images/Nokia_3_2.jpg)
 
 ---
 ### **Lenovo Ideapad Duet Chromebook (1080 x 1200px)**
 ---
 **Laptop mode**
 
-![Chromebook Laptop Mode Image 1](static/Documentation/Testing/images/chromebook_1.png)
-![Chromebook Laptop Mode Image 2](static/Documentation/Testing/images/chromebook_2.png)
+![Chromebook Laptop Mode Image 1](static/documentation/testing/images/chromebook_1.png)
+![Chromebook Laptop Mode Image 2](static/documentation/testing/images/chromebook_2.png)
 
 **Tablet mode**
 
-![Chromebook Tablet Mode Image 1](static/Documentation/Testing/images/chromebook_3.png)
-![Chromebook Tablet Mode Image 2](static/Documentation/Testing/images/chromebook_4.png)
+![Chromebook Tablet Mode Image 1](static/documentation/testing/images/chromebook_3.png)
+![Chromebook Tablet Mode Image 2](static/documentation/testing/images/chromebook_4.png)
 
 ---
 ### **Desktop PC (1920 x 1080px + 2560 × 1440) representing a mixture of age plus hardware capability & were readily available.**
@@ -137,15 +140,15 @@ Category List: As a Site User I can view a list of categories so that I can view
 
 **1920 x 1080px**
 
-![1920 x 1080px Image 1](static/Documentation/Testing/images/Desktop_1920_1.png)
-![1920 x 1080px Image 2](static/Documentation/Testing/images/Desktop_1920_2.png)
+![1920 x 1080px Image 1](static/documentation/testing/images/Desktop_1920_1.png)
+![1920 x 1080px Image 2](static/documentation/testing/images/Desktop_1920_2.png)
 
 ---
 
 **2560 x 1440px**
 
-![2560 x 1440px Image 1](static/Documentation/Testing/images/Desktop_1440_1.png)
-![2560 x 1440px Image 2](static/Documentation/Testing/images/Desktop_1440_2.png)
+![2560 x 1440px Image 1](static/documentation/testing/images/Desktop_1440_1.png)
+![2560 x 1440px Image 2](static/documentation/testing/images/Desktop_1440_2.png)
 
 ---
 
@@ -159,19 +162,19 @@ This functionality testing involved:
 **iPhone X**
 
 ---
-![iPhone X Image](static/Documentation/Testing/images/iPhone_X.gif)
+![iPhone X Image](static/documentation/testing/images/iPhone_X.gif)
 
 ---
 **Samsung Galaxy S20 Ultra**
 
 ---
-![Samsung Galaxy S20 Ultra Image](static/Documentation/Testing/images/Samsung_Galaxy_S20_Ultra.gif)
+![Samsung Galaxy S20 Ultra Image](static/documentation/testing/images/Samsung_Galaxy_S20_Ultra.gif)
 
 ---
 **iPhone 6/7/8**
 
 ---
-![iPhone 6/7/8 Image](static/Documentation/Testing/images/iPhone_6_7_8.gif)
+![iPhone 6/7/8 Image](static/documentation/testing/images/iPhone_6_7_8.gif)
 
 ---
 
@@ -188,7 +191,7 @@ This functionality testing involved:
 Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in my code.
 
 ### Lighthouse Score
-![Lighthouse Score Image](static/Documentation/Testing/images/Lighthouse_Score.PNG)
+![Lighthouse Score Image](static/documentation/testing/images/Lighthouse_Score.PNG)
 
 ### Unfixed Bugs
 

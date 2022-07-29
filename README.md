@@ -60,6 +60,8 @@ were not complete by the project deadline.
 ### Languages
 
 - [Python](https://www.python.org/about/)
+- [HTML5](https://dev.w3.org/html5/spec-LC/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
 ### Other Technologies and Libraries 
 
@@ -234,9 +236,13 @@ Initiallyfound one HTML error, missing lang element in HTML Tag. Resolved Issue.
 
 ### Unfixed Bugs
 
-**Known CSS MIME bug. Unable to resolve**
+**CSS MIME bug. Unable to resolve**
 
 ![Mime Bug Image](static/documentation/testing/images/mime_bug.png)
+
+Removed DISABLE_COLLECTSTATIC config vars from Heroku which removed one of the errors.
+Error may be a conflict with WhiteNoise.
+Previously used Cloudinary, but removed any reference from settings and removed from env.py when error occured.
 
 The live deployed application can be found at [not read it](https://not-read-it.herokuapp.com/).
 
@@ -299,6 +305,13 @@ Additionally, you'll need to create your own `env.py` file with the following ke
 ### Content 
 
 - [Django Blog](https://github.com/Code-Institute-Solutions/Django3blog/tree/master/12_final_deployment) Used  and modified code from this Github repository.
+
+### Sites Used
+
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [r/python](https://www.reddit.com/r/Python/)
+- [Reddit](https://www.reddit.com/)
 
 ### Special Thanks
 

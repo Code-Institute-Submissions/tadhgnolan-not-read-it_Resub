@@ -207,6 +207,8 @@ This functionality testing involved:
 
 - Checking that fonts scaled correctly for each display size.
 
+![Font Scaling Image](static/documentation/testing/images/font_scaling.gif)
+
 - Checking for overflow.
 
 - Tested html & CSS at https://validator.w3.org.

@@ -16,21 +16,22 @@
 
 ### Design
 
+#### UX
 
+An Agile methodology was used in planning the project utilising Github's Project kanban.
+Issues were used to create user stories. When work began on a user story, it was moved to the "In Progress" column. When the task is complete, it is moved to the Done column.
+A collumn named [Future Features](https://github.com/tadhgnolan/not-read-it/projects/1#column-18863244) is used for prospective features for the website and for any features that 
+were not complete by the project deadline.
 
 ### User Stories
 
-- View post list: As a Site User I can view a list of posts so that I can select one to read.
-- Open a post: As a Site User I can click on a post so that I can read the full text.
-- View likes: As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral.
-- View comments: As a Site User / Admin I can view comments on an individual post so that I can read the conversation.
-- Account registration: As a Site User I can register an account so that I can comment and like.
-- Comment on a post: As a Site User I can leave comments on a post so that I can be involved in the conversation.
-- Like / Unlike: As a Site User I can like or unlike a post so that I can interact with the content.
-- Manage posts: As a Site User / Admin I can create, read, update and delete posts so that I can manage my blog content.
-- Select Catagory: As a Site User / Admin I can select a topic catagory when creating a post.
-- Create drafts: As a Site Admin I can create draft posts so that I can finish writing the content later.
-- Approve comments: As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments.
+- View Post List: As a Site User I can view a list of posts so that I can select one to read. [#2](https://github.com/tadhgnolan/not-read-it/issues/2)
+- Open a Post: As a Site User I can click on a post so that I can read the full text. [#3](https://github.com/tadhgnolan/not-read-it/issues/3)
+- Manage Posts: As a Site User / Admin I can create, read, update and delete posts so that I can manage my content on the website. [#5](https://github.com/tadhgnolan/not-read-it/issues/5)
+- Account Registration: As a Site User I can register an account so that I can comment and like. [#8](https://github.com/tadhgnolan/not-read-it/issues/8)
+- Site Navigation: As a Site User I can easily navigate the site using the navbar or get back to the home page by clicking the logo. [#14](https://github.com/tadhgnolan/not-read-it/issues/14)
+- Select Category: As a Site User / Admin I can select a topic category when creating a post. [#15](https://github.com/tadhgnolan/not-read-it/issues/15)
+- Categories: As a Site Admin I can create, view, update and delete categories on the website. [#16](https://github.com/tadhgnolan/not-read-it/issues/16)
 
 ## Technologies
 

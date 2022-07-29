@@ -181,7 +181,10 @@ This functionality testing involved:
 
 ### Validator Testing 
 
-Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in my code. 
+Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in my code.
+
+### Lighthouse Score
+![Lighthouse Score Image](static/Documentation/Testing/images/Lighthouse_Score.PNG)
 
 ### Unfixed Bugs
 

@@ -27,6 +27,18 @@ Issues were used to create user stories. When work began on a user story, it was
 A collumn named [Future Features](https://github.com/tadhgnolan/not-read-it/projects/1#column-18863244) is used for prospective features for the website and for any features that 
 were not complete by the project deadline.
 
+#### UI
+
+**Wireframe Images**
+---
+![Wireframe Image 1](static/documentation/wireframes/wireframe_1.png)
+
+![Wireframe Image 1](static/documentation/wireframes/wireframe_2.png)
+
+![Wireframe Image 1](static/documentation/wireframes/wireframe_3.png)
+
+---
+
 ### User Stories
 
 - View Post List: As a Site User I can view a list of posts so that I can select one to read. [#2](https://github.com/tadhgnolan/not-read-it/issues/2)

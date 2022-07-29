@@ -211,6 +211,11 @@ This functionality testing involved:
 
 - Checking for overflow.
 
+**Checked for overflow using [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)**
+
+![Overflow Image](static/documentation/testing/images/overflow_image.png)
+
+
 - Tested html & CSS at https://validator.w3.org.
 
 ### Validator Testing 
@@ -222,6 +227,9 @@ Used [PEP8 online](http://pep8online.com/) code checker to correct any errors in
 
 ### Unfixed Bugs
 
+**Known CSS MIME bug. Unable to resolve**
+
+![Mime Bug Image](static/documentation/testing/images/mime_bug.png)
 
 The live deployed application can be found at [not read it](https://not-read-it.herokuapp.com/).
 

@@ -5,7 +5,7 @@ from django.contrib.auth.decorators import login_required
 from .models import Post, Category
 from .forms import PostForm, CategoryForm
 
-
+# Retrieves posts information for display on home page
 def get_posts(request):
     posts = Post.objects.all()
     template = "readit/posts.html"
@@ -14,7 +14,7 @@ def get_posts(request):
     }
     return render(request, template, context)
 
-
+# Renders full post details on post details page
 def view_post(request, id):
     post = get_object_or_404(Post, id=id)
     template = "readit/post_details.html"
@@ -24,6 +24,7 @@ def view_post(request, id):
     return render(request, template, context)
 
 
+# Checks if user is logged in before allowing them to post
 @login_required
 def add_post(request):
     form = PostForm(request.POST or None)
@@ -42,6 +43,7 @@ def add_post(request):
     return render(request, template, context)
 
 
+# Checks if user is orignal poster before allowing them to update post
 @login_required
 def update_post(request, id):
     post = get_object_or_404(Post, id=id)
@@ -62,6 +64,7 @@ def update_post(request, id):
     return render(request, template, context)
 
 
+# Checks if user is orignal poster before allowing them to delete post
 @login_required
 def delete_post(request, id):
     post = get_object_or_404(Post, id=id)
@@ -70,6 +73,7 @@ def delete_post(request, id):
     return redirect(reverse("posts"))
 
 
+# Checks if user is admin / superuser before allowing them to add category
 @login_required
 def add_category(request):
     if not request.user.is_superuser:
@@ -90,6 +94,7 @@ def add_category(request):
     return render(request, template, context)
 
 
+# Checks if user is admin / superuser before allowing them to update post
 @login_required
 def update_category(request, id):
     if not request.user.is_superuser:
@@ -112,6 +117,7 @@ def update_category(request, id):
     return render(request, template, context)
 
 
+# Checks if user is admin / superuser before allowing them to delete category
 @login_required
 def delete_category(request, id):
     if not request.user.is_superuser:
@@ -123,6 +129,7 @@ def delete_category(request, id):
     return redirect(reverse("categories"))
 
 
+# Checks if user is admin / superuser before allowing them to access categories page
 @login_required
 def categories(request):
     if not request.user.is_superuser:

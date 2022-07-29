@@ -98,7 +98,7 @@ were not complete by the project deadline.
 
 ![Delete Post Functionality Image](static/documentation/features/Delete_Post_image.png)
 
-#### **Admin functionality - admins can update and delete categories.**
+#### **Admin functionality - admins can add, update and delete categories.**
 
 ![Admin Functionality Image](static/documentation/features/Admin_Functionality_image.png)
 

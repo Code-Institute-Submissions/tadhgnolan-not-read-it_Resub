@@ -48,21 +48,35 @@ were not complete by the project deadline.
 
 ## Features 
 
-### Existing Features
+### Existing Features:
 
-Registration Page - allows new users to register an account with username and password.
+#### **Registration Page - allows new users to register an account with username and password.**
 
-Login page - registered user can login.
+![Registration Page Image](static/Documentation/Features/Registration_page.png)
 
-Home page - usersers can view list of posts. 
+#### **Login Page - registered user can login.**
 
-Add post - registered users can add new posts, enter a title and select a category from a drop down menu.
+![Login Page Image](static/Documentation/Features/Login_page.png)
 
-Update post - registered users can update their existing posts.
+#### **Home Page - usersers can view list of posts.**
 
-Delete post - registered users can delete their existing posts
+![Home Page Image](static/Documentation/Features/Home_page.png)
 
-Admin functionality - admins can update and delete categories
+#### **Add post - registered users can add new posts, enter a title and select a category from a drop down menu.**
+
+![Add Post Page](static/Documentation/Features/Add_Post_page.png)
+
+#### **Update post - registered users can update their existing posts.**
+
+![Update Post Page](static/Documentation/Features/Update_Post_page.png)
+
+#### **Delete post - registered users can delete their existing posts.**
+
+![Delete Post Functionality Image](static/Documentation/Features/Delete_Post_image.png)
+
+#### **Admin functionality - admins can update and delete categories.**
+
+![Admin Functionality Image](static/Documentation/Features/Admin_Functionality_image.png)
 
 ### Features Left to Implement
 
@@ -88,7 +102,7 @@ Approve Comments
 
 ---
 - ### Repeated real world testing performed with:
----
+
 ### **Google Pixel 3aXL (2160 × 1080px)**
 ---  
 ![Pixel 3aXL Image 1](static/Documentation/Testing/images/Pixel_3a_1.png)
